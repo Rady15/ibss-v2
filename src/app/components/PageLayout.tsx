@@ -137,16 +137,16 @@ export function PageLayout({ children }: { children: React.ReactNode }) {
 
       <div className="fixed end-0 top-1/2 -translate-y-1/2 z-[9999] hidden lg:flex flex-col">
         <a href="#contact" className="flex flex-col items-center justify-center w-[72px] h-[86px] text-white transition-all duration-300 hover:scale-105 hover:shadow-xl" style={{ background: "rgb(139, 195, 74)", borderRadius: "12px 0px 0px", marginTop: "0px" }}>
-          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle mb-1.5"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
-          <span class="text-[10px] leading-tight text-center px-1" style={{ fontFamily: "'Cairo', sans-serif" }}>تواصل معنا</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-message-circle mb-1.5"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
+          <span className="text-[10px] leading-tight text-center px-1" style={{ fontFamily: "'Cairo', sans-serif" }}>تواصل معنا</span>
         </a>
         <a href="#catalog" className="flex flex-col items-center justify-center w-[72px] h-[86px] text-white transition-all duration-300 hover:scale-105 hover:shadow-xl" style={{ background: "rgb(30, 46, 90)", borderRadius: "0px", marginTop: "-1px" }}>
-          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open mb-1.5"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg>
-          <span class="text-[10px] leading-tight text-center px-1" style={{ fontFamily: "'Cairo', sans-serif" }}>تحميل الكتالوج</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-book-open mb-1.5"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg>
+          <span className="text-[10px] leading-tight text-center px-1" style={{ fontFamily: "'Cairo', sans-serif" }}>تحميل الكتالوج</span>
         </a>
         <a href="#support" className="flex flex-col items-center justify-center w-[72px] h-[86px] text-white transition-all duration-300 hover:scale-105 hover:shadow-xl" style={{ background: "rgb(15, 35, 71)", borderRadius: "0px 0px 12px", marginTop: "-1px" }}>
-          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-headphones mb-1.5"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"></path></svg>
-          <span class="text-[10px] leading-tight text-center px-1" style={{ fontFamily: "'Cairo', sans-serif" }}>الدعم الفني</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-headphones mb-1.5"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"></path></svg>
+          <span className="text-[10px] leading-tight text-center px-1" style={{ fontFamily: "'Cairo', sans-serif" }}>الدعم الفني</span>
         </a>
       </div>
 
